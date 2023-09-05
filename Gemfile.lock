@@ -85,11 +85,15 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    libv8-node (18.16.0.0-arm64-darwin)
+    libv8-node (18.16.0.0-x86_64-linux)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    mini_racer (0.8.0)
+      libv8-node (~> 18.16.0.0)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
@@ -145,6 +149,7 @@ DEPENDENCIES
   jekyll-github-metadata (>= 2.15)
   jekyll-include-cache
   just-the-docs!
+  mini_racer
 
 BUNDLED WITH
    2.4.13
