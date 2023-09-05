@@ -21,6 +21,7 @@ repository: inkyun-park/inkyun-park.github.io # for github-metadata
 
 permalink: pretty
 theme: just-the-docs
+remote-theme: just-the-docs/just-the-docs
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
