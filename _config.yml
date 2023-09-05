@@ -20,7 +20,7 @@ url: "https://inkyun-park.github.io" # the base hostname & protocol for your sit
 repository: inkyun-park/inkyun-park.github.io # for github-metadata
 
 permalink: pretty
-theme: just-the-docs
+# theme: just-the-docs
 remote-theme: just-the-docs/just-the-docs
 
 exclude:
